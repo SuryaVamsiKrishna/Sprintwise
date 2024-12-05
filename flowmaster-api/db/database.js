@@ -3,7 +3,7 @@ require("dotenv").config();
 const { MongoClient } = require("mongodb");
 
 // MongoDB connection string
-const mongoURI = "mongodb://localhost:27017";
+const mongoURI = "mongodb://127.0.0.1:27017";
 
 let db;
 let usersCollection;
